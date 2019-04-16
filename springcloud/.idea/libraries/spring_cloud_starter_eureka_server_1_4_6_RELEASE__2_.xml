@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="spring-cloud-starter-eureka-server-1.4.6.RELEASE (2)">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/cloud2/lib/spring-cloud-starter-eureka-server-1.4.6.RELEASE.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
