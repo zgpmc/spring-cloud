@@ -1,0 +1,32 @@
+#server.port=8089
+#spring.application.name=zuul
+##注册中心地址
+#eureka.client.serviceUrl.defaultZone=http://localhost:8088/eureka/
+##eureka client刷新本地缓存时间 默认30s
+#eureka.client.registry-fetch-interval-seconds=5
+##如果你希望按照书写顺序来执行路由规则，则必须使用YAML文件，不能使用properties
+##path:要过滤的访问路径 *表示一层 **表示多层
+##url:要替换的路由
+##userserver:自定义的路由服务名
+##此配置表示 访问http://localhost:8089/test/test/hello?name=55 会返回http://localhost:8095/test/hello?name=55 的结果 将配置的url替换掉http://localhost:8089/test，**连接其后
+#zuul.routes.userserver.path=/test/**
+#zuul.routes.userserver.url=http://localhost:8095
+server:
+  port: 8089
+spring:
+  application:
+    name: zuul
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8088/eureka/
+    registry-fetch-interval-seconds: 5
+zuul:
+  routes:
+    userserver:
+      #绝对地址
+#      path: /test/**
+#      url: http://localhost:8095
+      #服务化 服务id
+      path: /cloud1/**
+      serverId: cloud1

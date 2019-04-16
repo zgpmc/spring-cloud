@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.cloud1.dao.LDCODEMapper">
+    <resultMap id="BaseResultMap" type="com.example.cloud1.model.LDCODE">
+        <constructor>
+            <arg column="CodeType" javaType="java.lang.String" jdbcType="VARCHAR" />
+            <arg column="code" javaType="java.lang.String" jdbcType="VARCHAR" />
+            <arg column="codeName" javaType="java.lang.String" jdbcType="VARCHAR" />
+            <arg column="describe" javaType="java.lang.String" jdbcType="VARCHAR" />
+        </constructor>
+    </resultMap>
+    <insert id="insert" parameterType="com.example.cloud1.model.LDCODE">
+    insert into ldcode (CodeType, code, codeName, 
+      describe)
+    values (#{codetype,jdbcType=VARCHAR}, #{code,jdbcType=VARCHAR}, #{codename,jdbcType=VARCHAR}, 
+      #{describe,jdbcType=VARCHAR})
+  </insert>
+    <insert id="insertSelective" parameterType="com.example.cloud1.model.LDCODE">
+        insert into ldcode
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="codetype != null">
+                CodeType,
+            </if>
+            <if test="code != null">
+                code,
+            </if>
+            <if test="codename != null">
+                codeName,
+            </if>
+            <if test="describe != null">
+                describe,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="codetype != null">
+                #{codetype,jdbcType=VARCHAR},
+            </if>
+            <if test="code != null">
+                #{code,jdbcType=VARCHAR},
+            </if>
+            <if test="codename != null">
+                #{codename,jdbcType=VARCHAR},
+            </if>
+            <if test="describe != null">
+                #{describe,jdbcType=VARCHAR},
+            </if>
+        </trim>
+    </insert>
+    <select id="selectCodeAndCodetypeAndCodename" parameterType="com.example.cloud1.model.LDCODE"
+            resultMap="BaseResultMap">
+        SELECT * FROM ldcode WHERE 1=1
+        <if test="code != null">AND code =#{code,jdbcType=VARCHAR}</if>
+        <if test="codetype != null">AND codetype=#{codetype,jdbcType=VARCHAR}</if>
+        <if test="codename != null">AND codename=#{codename,jdbcType=VARCHAR}</if>
+    </select>
+</mapper>

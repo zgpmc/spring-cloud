@@ -1,0 +1,24 @@
+#部署 cmd:java -jar xxx.jar --spring.profiles.active=a
+server:
+  port: 8089
+
+eureka:
+  instance:
+    hostname: localhost
+  #eureka server刷新readCacheMap的时间，注意，client读取的是readCacheMap，这个时间决定了多久会把readWriteCacheMap的缓存更新到readCacheMap上 服务端缓存最长时间 单位毫秒
+    #默认30s
+  server:
+    response-cache-update-interval-ms: 5000
+    #eureka server缓存readWriteCacheMap失效时间，这个只有在这个时间过去后缓存才会失效，失效前不会更新，过期后从registry重新读取注册服务信息，registry是一个ConcurrentHashMap。
+    #由于启用了response-cache-其实就用不太上改这个配置了
+    #默认180s
+    #responseCacheAutoExpirationInSeconds: 180
+    #启用主动失效，并且每次主动失效检测间隔为3s 清理间隔（单位毫秒）驱逐下线的服务，间隔10秒，默认是60
+    eviction-interval-timer-in-ms: 5000
+
+  client:
+#启用自注册 一个服务应该关闭自注册registerWithEureka fetchRegistry
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:8088/eureka/

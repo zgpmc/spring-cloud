@@ -1,0 +1,49 @@
+server:
+  port: 8096
+spring:
+  application:
+    name: cloud1
+  datasource:
+      type: com.alibaba.druid.pool.DruidDataSource
+      #驱动类为8.0以上写法
+      #driver-class-name: com.mysql.cj.jdbc.Driver
+      #8.0以下驱动类
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://127.0.0.1:3306/creditcard?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+      username: root
+      password: root
+      # 使用druid数据源
+      filters: stat
+      maxActive: 20
+      initialSize: 1
+      maxWait: 60000
+      minIdle: 1
+      timeBetweenEvictionRunsMillis: 60000
+      minEvictableIdleTimeMillis: 300000
+      validationQuery: select 'x' from dual
+      testWhileIdle: true
+      testOnBorrow: false
+      testOnReturn: false
+      poolPreparedStatements: false
+      maxOpenPreparedStatements: 20
+      maxPoolPreparedStatementPerConnectionSize: 20
+
+      logSlowSql: true
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8088/eureka/
+      #服务过期时间配置,超过这个时间没有接收到心跳EurekaServer就会将这个实例剔除
+      #注意，EurekaServer一定要设置eureka.server.eviction-interval-timer-in-ms否则这个配置无效，这个配置一般为服务刷新时间配置的三倍 默认90s 单位s
+  instance:
+    lease-expiration-duration-in-seconds: 15
+      #服务刷新时间配置，每隔这个时间会主动心跳一次 默认30s
+    lease-renewal-interval-in-seconds: 5
+
+## 该配置节点为独立的节点，有很多同学容易将这个配置放在spring的节点下，导致配置无法被识别
+mybatis:
+  mapper-locations: classpath:mybaties/mapper/**/*.xml  #注意：一定要对应mapper映射xml文件的所在路径
+  type-aliases-package: com.example.cloud2.model  # 注意：对应实体类的路径
+  configuration:
+    log-impl: org.apache.ibatis.logging.slf4j.Slf4jImpl #打印sql
