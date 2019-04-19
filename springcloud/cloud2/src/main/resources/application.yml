@@ -6,9 +6,9 @@ spring:
   datasource:
       type: com.alibaba.druid.pool.DruidDataSource
       #驱动类为8.0以上写法
-      #driver-class-name: com.mysql.cj.jdbc.Driver
+      driver-class-name: com.mysql.cj.jdbc.Driver
       #8.0以下驱动类
-      driver-class-name: com.mysql.jdbc.Driver
+      #driver-class-name: com.mysql.jdbc.Driver
       url: jdbc:mysql://127.0.0.1:3306/creditcard?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
       username: root
       password: root
@@ -29,7 +29,14 @@ spring:
       maxPoolPreparedStatementPerConnectionSize: 20
 
       logSlowSql: true
-
+  #开启zipkin 监控
+  sleuth:
+    enabled: true
+    sampler:
+    #全部采样 0.1-1.0
+      probability: 1.0
+  zipkin:
+    base-url: http://localhost:9411/
 eureka:
   client:
     service-url:
@@ -44,6 +51,6 @@ eureka:
 ## 该配置节点为独立的节点，有很多同学容易将这个配置放在spring的节点下，导致配置无法被识别
 mybatis:
   mapper-locations: classpath:mybaties/mapper/**/*.xml  #注意：一定要对应mapper映射xml文件的所在路径
-  type-aliases-package: com.example.cloud2.model  # 注意：对应实体类的路径
+  type-aliases-package: com.example.cloud1.model  # 注意：对应实体类的路径
   configuration:
     log-impl: org.apache.ibatis.logging.slf4j.Slf4jImpl #打印sql

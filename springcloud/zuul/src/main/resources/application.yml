@@ -16,17 +16,41 @@ server:
 spring:
   application:
     name: zuul
+  #使用zipkin请求监控配置
+  sleuth:
+    web:
+      client:
+      #zipkin client 启用
+        enabled: true
+    sampler:
+    #监控采样比例 将采样比例设置为 1.0，也就是全部都需要。默认是 0.1 0.1~1.0
+      probability: 1.0
+  #zipkin 服务端地址 需要先运行 zipkin-server-2.12.8-exec.jar 包 启动服务端 地址默认端口9411
+  zipkin:
+    base-url: http://localhost:9411/
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:8088/eureka/
     registry-fetch-interval-seconds: 5
 zuul:
+#禁用FormBodyWrapperFilter 使用自定义filter
+  FormBodyWrapperFilter:
+    pre:
+      disable: true
   routes:
     userserver:
       #绝对地址
 #      path: /test/**
 #      url: http://localhost:8095
       #服务化 服务id
-      path: /cloud1/**
+      path: /cloud1/
       serverId: cloud1
+  #启用重试功能
+  retryable: true
+#断路器的其中一个作用就是防止故障或者压力扩散。用了retry，断路器就只有在该服务的所有实例都无法运作的情况下才能起作用。不用retry，仅使用负载均衡和熔断，就必须考虑到是否能够接受单个服务实例关闭和eureka刷新服务列表之间带来的短时间的熔断。如果可以接受，就无需使用retry
+ribbon:
+#对当前服务重试次数
+  MaxAutoRetries: 2
+#切换相同server的次数
+  MaxAutoRetriesNextServer: 0

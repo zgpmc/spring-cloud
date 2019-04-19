@@ -26,6 +26,15 @@ public class Test
     @RequestMapping(value = "")
     public String test()
     {
+        try
+        {
+            System.out.println("开始睡眠，用于测试路由是否重试调用该服务");
+            Thread.sleep(100);
+            System.out.println("睡眠结束，用于测试路由是否重试调用该服务");
+        } catch (InterruptedException e)
+        {
+            System.out.println("睡眠异常!");
+        }
         String res = "提供服务成功！port:" + port;
         System.out.println(res);
         return res;

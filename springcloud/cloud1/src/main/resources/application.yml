@@ -29,6 +29,15 @@ spring:
       maxPoolPreparedStatementPerConnectionSize: 20
 
       logSlowSql: true
+  #启用zipkin监控
+  sleuth:
+    enabled: true
+    #设置监控采样比例 0.1~1.0
+    sampler:
+      probability: 1.0
+  #设置监控地址
+  zipkin:
+    base-url: http://localhost:9411
 eureka:
   client:
     service-url:
