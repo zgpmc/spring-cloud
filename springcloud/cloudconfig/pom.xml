@@ -39,9 +39,15 @@
         </dependency>
         <!--svn管理配置依赖 不用svn可注释-->
         <!--<dependency>-->
-            <!--<groupId>org.tmatesoft.svnkit</groupId>-->
-            <!--<artifactId>svnkit</artifactId>-->
+        <!--<groupId>org.tmatesoft.svnkit</groupId>-->
+        <!--<artifactId>svnkit</artifactId>-->
         <!--</dependency>-->
+        <!--star 使用RabbitMQ管理消息总线 提交post请求时 只需配置的服务端发送请求就可以实现客户端也更新配置-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-bus-amqp</artifactId>
+        </dependency>
+        <!--end-->
         <!--start zipkin依赖 请求调用监控依赖 可见完整的服务调用链-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>

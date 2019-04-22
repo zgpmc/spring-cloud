@@ -15,7 +15,6 @@
         <module name="turbine" />
         <module name="use1" />
         <module name="use2" />
-        <module name="zipkin" />
         <module name="zuul" />
       </profile>
     </annotationProcessing>

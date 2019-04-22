@@ -13,7 +13,6 @@
         <option value="$PROJECT_DIR$/use1/pom.xml" />
         <option value="$PROJECT_DIR$/use2/pom.xml" />
         <option value="$PROJECT_DIR$/zuul/pom.xml" />
-        <option value="$PROJECT_DIR$/zipkin/pom.xml" />
       </list>
     </option>
   </component>
