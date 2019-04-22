@@ -1,0 +1,42 @@
+server:
+  port: 8065
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8088/eureka/
+  instance:
+    # 设置心跳的时间间隔（默认是30秒）
+    lease-renewal-interval-in-seconds: 5
+    # 如果现在超过了5秒的间隔（默认是90秒）超时间隔
+    lease-expiration-duration-in-seconds: 10
+    # 在信息列表时显示主机名称
+    instance-id: localhost
+    # 访问的路径变为IP地址
+    prefer-ip-address: true
+spring:
+  cloud:
+    stream:
+      # 在此处配置要绑定的rabbitmq的服务信息
+      binders:
+         # 表示定义的名称，用于binding整合
+        defaultRabbit:
+          # 消息组件类型
+          type: rabbit
+          # 设置rabbitmq的相关的环境配置
+          environment:
+      bindings:
+        #服务整合处理 output 为自定义通道名
+        output:
+          # 表示要使用的Exchange 交换器名称定义
+          destination: tudyExchange
+          ## 设置消息类型，本次为对象json，如果是文本则设置“text/plain”
+          content-type: application/json
+          ## 设置要绑定的消息服务的具体设置
+          binder: defaultRabbit
+  rabbitmq:
+    addresses: 127.0.0.1
+    username: guest
+    password: guest
+    virtual-host: /
+  application:
+    name: streampro
