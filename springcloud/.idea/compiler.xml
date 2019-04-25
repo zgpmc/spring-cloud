@@ -12,7 +12,9 @@
         <module name="cloudserver" />
         <module name="configclient" />
         <module name="configclient2" />
+        <module name="streamcustomer" />
         <module name="streamprovider" />
+        <module name="streamtransfer" />
         <module name="turbine" />
         <module name="use1" />
         <module name="use2" />
@@ -26,7 +28,9 @@
       <module name="cloudserver" target="1.8" />
       <module name="configclient" target="1.8" />
       <module name="configclient2" target="1.8" />
+      <module name="streamcustomer" target="1.8" />
       <module name="streamprovider" target="1.8" />
+      <module name="streamtransfer" target="1.8" />
       <module name="turbine" target="1.8" />
       <module name="use1" target="1.8" />
       <module name="use2" target="1.8" />

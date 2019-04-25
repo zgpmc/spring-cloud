@@ -1,5 +1,5 @@
 server:
-  port: 8065
+  port: 8066
 eureka:
   client:
     service-url:
@@ -16,6 +16,9 @@ eureka:
 spring:
   cloud:
     stream:
+      #此属性用于设置默认值，contentType只是示例
+      default:
+        contentType: application/json
       #要使用时先安装rabbitmq 然后在sbin目录执行:rabbitmq-plugins enble rabbitmq_management 启用web管理工具 运行:rabbitmq-server.bat 访问127.0.0.1:15672 guest guest 即可管理
       # 多个binder时必须指定一个默认的binder，如果不配置将报错
       default-binder: boss
@@ -36,23 +39,23 @@ spring:
                   virtual-host: boss
       bindings:
         #服务整合处理 outputmsg 为自定义 生产通道名 指定生产通道是要与此一致
-        outputmsg:
+        outputt:
+          # 表示要使用的Exchange 交换器名称定义
+          destination: tra
+          ## 设置消息类型，本次为对象json，如果是文本则设置“text/plain” @ServiceActivator注解 和 @StreamListener 都实现了对消息的监听，ServiceActivator 没有内置消息转换，需要自己实现转换 @StreamListener 不需要自己实现，只需要在配置文件增加spring.cloud.stream.bindings.input.content-type=application/json 属性(默认支持json，json格式的可以不用配置)
+          content-type: application/json
+          ## 设置要绑定的消息服务的具体设置s
+          binder: boss
+        #服务整合处理 outputmsg 为自定义 生产通道名 指定生产通道是要与此一致
+        inputt:
           # 表示要使用的Exchange 交换器名称定义
           destination: pro
-          ## 设置消息类型，本次为对象json，如果是文本则设置“text/plain” @ServiceActivator注解 和 @StreamListener 都实现了对消息的监听，ServiceActivator 没有内置消息转换，需要自己实现转换 @StreamListener 不需要自己实现，只需要在配置文件增加spring.cloud.stream.bindings.input.content-type=application/json 属性(默认支持json，json格式的可以不用配置)
+          #设置分组 保证每个消息只被一个实例消费
+          group: grouptra
+          ## 设置消息类型，本次为对象json，如果是文本则设置“text/plain”
           content-type: application/json
           ## 设置要绑定的消息服务的具体设置
           binder: boss
-        #服务整合处理 outputmsg 为自定义 生产通道名 指定生产通道是要与此一致
-#        inputmsg:
-#          # 表示要使用的Exchange 交换器名称定义
-#          destination: cus
-#          #生产者无需 设置分组 保证每个消息只被一个实例消费
-#          #group: grouppro
-#          ## 设置消息类型，本次为对象json，如果是文本则设置“text/plain”
-#          content-type: application/json
-#          ## 设置要绑定的消息服务的具体设置
-#          binder: boss
       rabbit:
         bindings:
           outputmsg:
@@ -82,3 +85,27 @@ spring:
         max-concurrency: 10
         #限流
         prefetch: 1
+#官方两个实例配置示例
+#spring:
+#  cloud:
+#    stream:
+#      bindings:
+#        input:
+#          destination: foo
+#          binder: rabbit1
+#        output:
+#          destination: bar
+#          binder: rabbit2
+#      binders:
+#        rabbit1:
+#          type: rabbit
+#          environment:
+#            spring:
+#              rabbitmq:
+#                host: <host1>
+#        rabbit2:
+#          type: rabbit
+#          environment:
+#            spring:
+#              rabbitmq:
+#                host: <host2>

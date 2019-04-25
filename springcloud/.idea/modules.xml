@@ -8,7 +8,9 @@
       <module fileurl="file://$PROJECT_DIR$/cloudserver/cloudserver.iml" filepath="$PROJECT_DIR$/cloudserver/cloudserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/configclient/configclient.iml" filepath="$PROJECT_DIR$/configclient/configclient.iml" />
       <module fileurl="file://$PROJECT_DIR$/configclient2/configclient2.iml" filepath="$PROJECT_DIR$/configclient2/configclient2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/streamcustomer/streamcustomer.iml" filepath="$PROJECT_DIR$/streamcustomer/streamcustomer.iml" />
       <module fileurl="file://$PROJECT_DIR$/streamprovider/streamprovider.iml" filepath="$PROJECT_DIR$/streamprovider/streamprovider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/streamtransfer/streamtransfer.iml" filepath="$PROJECT_DIR$/streamtransfer/streamtransfer.iml" />
       <module fileurl="file://$PROJECT_DIR$/turbine/turbine.iml" filepath="$PROJECT_DIR$/turbine/turbine.iml" />
       <module fileurl="file://$PROJECT_DIR$/use1/use1.iml" filepath="$PROJECT_DIR$/use1/use1.iml" />
       <module fileurl="file://$PROJECT_DIR$/use2/use2.iml" filepath="$PROJECT_DIR$/use2/use2.iml" />
