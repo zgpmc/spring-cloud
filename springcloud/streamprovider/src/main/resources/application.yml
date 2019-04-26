@@ -43,6 +43,11 @@ spring:
           content-type: application/json
           ## 设置要绑定的消息服务的具体设置
           binder: boss
+#          producer:
+#            #分区的主键，根据什么来分区，下面的payload.id只是一个对象的id用于做为Key，用来说明的。希望不要误解
+#            partitionKeyExpression: payload.id
+#            #Key和分区数量进行取模去分配消息，这里分区数量配置为2
+#            partitionCount: 2
         #服务整合处理 outputmsg 为自定义 生产通道名 指定生产通道是要与此一致
 #        inputmsg:
 #          # 表示要使用的Exchange 交换器名称定义

@@ -47,6 +47,7 @@ spring:
           ## 设置要绑定的消息服务的具体设置
           binder: boss
         #服务整合处理 outputmsg 为自定义 生产通道名 指定生产通道是要与此一致
+
         inputmsg:
           # 表示要使用的Exchange 交换器名称定义
           destination: pro
@@ -56,12 +57,17 @@ spring:
           content-type: application/json
           ## 设置要绑定的消息服务的具体设置
           binder: boss
+          #消费者开启分区
+          consumer:
+            partitioned: true
       rabbit:
         bindings:
           outputmsg:
             producer:
               #exchange的类型为广播模式
               exchangeType: fanout
+      #消费者分区数量
+      instance-count: 2
   application:
     name: streampro
   rabbitmq:
