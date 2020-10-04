@@ -6,17 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloud1" />
+        <module name="streamtransfer" />
         <module name="cloud2" />
-        <module name="cloudconfig" />
+        <module name="cloud1" />
         <module name="cloudserver" />
-        <module name="configclient" />
-        <module name="configclient2" />
+        <module name="turbine" />
+        <module name="cloudconfig" />
         <module name="streamcustomer" />
         <module name="streamprovider" />
-        <module name="streamtransfer" />
-        <module name="turbine" />
+        <module name="configclient2" />
         <module name="use1" />
+        <module name="configclient" />
         <module name="use2" />
         <module name="zuul" />
       </profile>
@@ -37,5 +37,22 @@
       <module name="zipkin" target="1.8" />
       <module name="zuul" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloud1" options="-parameters" />
+      <module name="cloud2" options="-parameters" />
+      <module name="cloudconfig" options="-parameters" />
+      <module name="cloudserver" options="-parameters" />
+      <module name="configclient" options="-parameters" />
+      <module name="configclient2" options="-parameters" />
+      <module name="streamcustomer" options="-parameters" />
+      <module name="streamprovider" options="-parameters" />
+      <module name="streamtransfer" options="-parameters" />
+      <module name="turbine" options="-parameters" />
+      <module name="use1" options="-parameters" />
+      <module name="use2" options="-parameters" />
+      <module name="zuul" options="-parameters" />
+    </option>
   </component>
 </project>

@@ -23,7 +23,7 @@ public interface Iface
 {
     /**
      * 提供者的方法 方法名、返回值、参数必须一致，路径为访问提供者的路径
-     *
+     * mapping路径写提供者的访问路径 远程调用的接口必须写requestparam 否则要么错误要么拿不到参数
      * @param name
      * @return
      */
