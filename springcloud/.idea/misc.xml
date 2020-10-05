@@ -9,17 +9,17 @@
         <option value="$PROJECT_DIR$/cloudserver/pom.xml" />
         <option value="$PROJECT_DIR$/configclient/pom.xml" />
         <option value="$PROJECT_DIR$/configclient2/pom.xml" />
+        <option value="$PROJECT_DIR$/streamcustomer/pom.xml" />
+        <option value="$PROJECT_DIR$/streamprovider/pom.xml" />
+        <option value="$PROJECT_DIR$/streamtransfer/pom.xml" />
         <option value="$PROJECT_DIR$/turbine/pom.xml" />
         <option value="$PROJECT_DIR$/use1/pom.xml" />
         <option value="$PROJECT_DIR$/use2/pom.xml" />
         <option value="$PROJECT_DIR$/zuul/pom.xml" />
-        <option value="$PROJECT_DIR$/streamprovider/pom.xml" />
-        <option value="$PROJECT_DIR$/streamcustomer/pom.xml" />
-        <option value="$PROJECT_DIR$/streamtransfer/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_14" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

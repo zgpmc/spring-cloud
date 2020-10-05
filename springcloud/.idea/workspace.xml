@@ -1,90 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69e5ed72-7d5e-42a4-bad9-e0d545354b5a" name="Default" comment="增加cloudstream">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+    <list default="true" id="f0754cf0-8a48-4581-9ad5-90048d010b02" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea/.idea.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/springcloud.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudserver/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streamprovider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/streamprovider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud1/src/main/java/com/example/cloud1/Cloud1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud1/src/main/java/com/example/cloud1/Cloud1Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud2/src/main/java/com/example/cloud2/Cloud2Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud2/src/main/java/com/example/cloud2/Cloud2Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudserver/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/use1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/use1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/use1/src/main/java/com/example/use1/Use1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/use1/src/main/java/com/example/use1/Use1Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/use1/src/main/java/com/example/use1/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/use1/src/main/java/com/example/use1/config/Config.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/use1/src/main/java/com/example/use1/ctrl/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/use1/src/main/java/com/example/use1/ctrl/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use1/src/main/java/com/example/use1/iface/Iface.java" beforeDir="false" afterPath="$PROJECT_DIR$/use1/src/main/java/com/example/use1/iface/Iface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/use1/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/use1/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="AnnotationType" />
-        <option value="Class" />
-        <option value="Interface" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="vmOptionsForImporter" value="-Xmx768m" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="1iM0blSKVicEpQo96WwvunCjNoX" />
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Correctness</id>
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Performance</id>
-          </State>
-          <State>
-            <id>General</id>
-          </State>
-          <State>
-            <id>Java</id>
-          </State>
-          <State>
-            <id>Kotlin Android</id>
-          </State>
-          <State>
-            <id>Performance issuesJava</id>
-          </State>
-          <State>
-            <id>Probable bugsJava</id>
-          </State>
-          <State>
-            <id>Properties Files</id>
-          </State>
-          <State>
-            <id>RegExp</id>
-          </State>
-          <State>
-            <id>XML</id>
-          </State>
-          <State>
-            <id>XPath</id>
-          </State>
-        </expanded-state>
-      </profile-state>
-    </entry>
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <OptionsSetting value="false" id="Update" />
-  </component>
+  <component name="ProjectId" id="1iRcuMIep1vx00pZ2unaAzi2jB2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
     <option name="autoscrollFromSource" value="true" />
@@ -93,94 +42,36 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="android.sdk.path" value="$PROJECT_DIR$/../../../AndroidSdk27" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/zuul" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.1230629" />
     <property name="project.structure.side.proportion" value="0.3118467" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.example.streamcustomer.mode" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.example.zipkin.extend" />
-    </key>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="configurationTypes">
-      <set>
-        <option value="SpringBootApplicationConfigurationType" />
-      </set>
-    </option>
-  </component>
-  <component name="RunManager" selected="Spring Boot.ZuulApplication">
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StreamproviderApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
-      <module name="streamprovider" />
+  <component name="RunManager" selected="Spring Boot.Use1Application">
+    <configuration name="Cloud1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.streamprovider.*" />
+          <option name="PATTERN" value="com.example.cloud1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.streamprovider" />
-      <option name="MAIN_CLASS_NAME" value="com.example.streamprovider.StreamproviderApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="springcloud" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Cloud1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="cloud1" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.cloud1.Cloud1Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -188,6 +79,9 @@
     <configuration name="Cloud2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud2" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.cloud2.Cloud2Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -195,6 +89,9 @@
     <configuration name="CloudconfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloudconfig" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.cloudconfig.CloudconfigApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -212,6 +109,9 @@
     <configuration name="ConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="configclient" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.configclient.ConfigClientApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -219,6 +119,9 @@
     <configuration name="Configclient2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="configclient2" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.configclient2.Configclient2Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -226,6 +129,9 @@
     <configuration name="StreamcustomerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="streamcustomer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.streamcustomer.StreamcustomerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -234,6 +140,8 @@
       <module name="streamprovider" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.streamprovider.StreamproviderApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -241,6 +149,9 @@
     <configuration name="StreamtransferApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="streamtransfer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.streamtransfer.StreamtransferApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -248,6 +159,9 @@
     <configuration name="TurbineApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="turbine" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.turbine.TurbineApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -255,6 +169,9 @@
     <configuration name="Use1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="use1" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.use1.Use1Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -262,6 +179,9 @@
     <configuration name="Use2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="use2" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.use2.Use2Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -269,192 +189,140 @@
     <configuration name="ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="zuul" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.zuul.ZuulApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="TestNG">
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file enabled="true" id="idea.log" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.StreamproviderApplicationTests.contextLoads" />
-      <item itemvalue="Spring Boot.Cloud1Application" />
       <item itemvalue="Spring Boot.Cloud2Application" />
-      <item itemvalue="Spring Boot.Use1Application" />
-      <item itemvalue="Spring Boot.TurbineApplication" />
       <item itemvalue="Spring Boot.CloudconfigApplication" />
-      <item itemvalue="Spring Boot.ZuulApplication" />
-      <item itemvalue="Spring Boot.ConfigClientApplication" />
       <item itemvalue="Spring Boot.CloudserverApplication" />
       <item itemvalue="Spring Boot.Configclient2Application" />
-      <item itemvalue="Spring Boot.Use2Application" />
-      <item itemvalue="Spring Boot.StreamproviderApplication" />
+      <item itemvalue="Spring Boot.ConfigClientApplication" />
       <item itemvalue="Spring Boot.StreamcustomerApplication" />
+      <item itemvalue="Spring Boot.StreamproviderApplication" />
       <item itemvalue="Spring Boot.StreamtransferApplication" />
+      <item itemvalue="Spring Boot.TurbineApplication" />
+      <item itemvalue="Spring Boot.Use1Application" />
+      <item itemvalue="Spring Boot.Use2Application" />
+      <item itemvalue="Spring Boot.ZuulApplication" />
+      <item itemvalue="Spring Boot.Cloud1Application" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Cloud1Application" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="69e5ed72-7d5e-42a4-bad9-e0d545354b5a" name="Default" comment="" />
-      <created>1555383387299</created>
+      <changelist id="f0754cf0-8a48-4581-9ad5-90048d010b02" name="Default Changelist" comment="" />
+      <created>1601874066196</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1555383387299</updated>
-      <workItem from="1555383397266" duration="18915000" />
-      <workItem from="1555637460922" duration="137000" />
-      <workItem from="1555637651273" duration="15161000" />
-      <workItem from="1555894159714" duration="75268000" />
-      <workItem from="1601702228656" duration="1672000" />
-      <workItem from="1601703916222" duration="46000" />
-      <workItem from="1601703973571" duration="11878000" />
-      <workItem from="1601798288335" duration="4716000" />
+      <updated>1601874066196</updated>
+      <workItem from="1601874070817" duration="593000" />
+      <workItem from="1601874724975" duration="3190000" />
     </task>
-    <task id="LOCAL-00001" summary="更新">
-      <created>1555926819123</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1555926819123</updated>
-    </task>
-    <task id="LOCAL-00002" summary="增加cloudstream">
-      <created>1555929334178</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1555929334178</updated>
-    </task>
-    <task id="LOCAL-00003" summary="实现rabbitmq">
-      <created>1556068829689</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1556068829689</updated>
-    </task>
-    <task id="LOCAL-00004" summary="增加cloudstream">
-      <created>1556187315701</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1556187315701</updated>
-    </task>
-    <task id="LOCAL-00005" summary="更新cloudstream">
-      <created>1556243597738</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1556243597738</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/spring-cloud" />
-      <path value="$PROJECT_DIR$/../Spring-Cloud" />
-    </ignored-roots>
-    <MESSAGE value="更新" />
-    <MESSAGE value="实现rabbitmq" />
-    <MESSAGE value="增加cloudstream" />
-    <MESSAGE value="更新cloudstream" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新cloudstream" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="323" y="23" key="#Cloud1Application" timestamp="1601702255002">
+    <state x="323" y="23" key="#CloudserverApplication" timestamp="1601874815213">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="323" y="23" key="#Cloud1Application/0.0.1600.860@0.0.1600.860" timestamp="1601702255002" />
-    <state x="280" y="4" key="#Project_Structure" timestamp="1601706468941">
+    <state x="323" y="23" key="#CloudserverApplication/0.0.1600.860@0.0.1600.860" timestamp="1601874815213" />
+    <state x="197" y="8" key="#Project_Structure" timestamp="1601874160812">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="280" y="4" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1601706468941" />
-    <state x="-148" y="169" width="1174" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601706763454">
+    <state x="197" y="8" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1601874160812" />
+    <state x="254" y="84" width="1174" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601874889006">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="-148" y="169" width="1174" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1601706763454" />
-    <state x="168" y="303" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1601706720616">
+    <state x="254" y="84" width="1174" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1601874889006" />
+    <state x="367" y="0" key="CommitChangelistDialog2" timestamp="1601877899874">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="168" y="303" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1600.860@0.0.1600.860" timestamp="1601706720616" />
-    <state x="425" y="269" key="FileChooserDialogImpl" timestamp="1601806161550">
+    <state x="367" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1601877899874" />
+    <state x="581" y="166" key="FileChooserDialogImpl" timestamp="1601874342279">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="425" y="269" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1601806161550" />
-    <state width="733" height="189" key="GridCell.Tab.0.bottom" timestamp="1601717021446">
+    <state x="581" y="166" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1601874342279" />
+    <state width="1557" height="266" key="GridCell.Tab.0.bottom" timestamp="1601876526501">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="733" height="189" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1601717021446" />
-    <state width="733" height="189" key="GridCell.Tab.0.center" timestamp="1601717021446">
+    <state width="1557" height="266" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1601876526501" />
+    <state width="1557" height="266" key="GridCell.Tab.0.center" timestamp="1601876526501">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="733" height="189" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1601717021446" />
-    <state width="733" height="189" key="GridCell.Tab.0.left" timestamp="1601717021446">
+    <state width="1557" height="266" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1601876526501" />
+    <state width="1557" height="266" key="GridCell.Tab.0.left" timestamp="1601876526501">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="733" height="189" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1601717021446" />
-    <state width="733" height="189" key="GridCell.Tab.0.right" timestamp="1601717021446">
+    <state width="1557" height="266" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1601876526501" />
+    <state width="1557" height="266" key="GridCell.Tab.0.right" timestamp="1601876526501">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="733" height="189" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1601717021446" />
-    <state width="406" height="214" key="GridCell.Tab.1.bottom" timestamp="1601717021445">
+    <state width="1557" height="266" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1601876526501" />
+    <state width="1557" height="266" key="GridCell.Tab.1.bottom" timestamp="1601876526419">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="406" height="214" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1601717021445" />
-    <state width="406" height="214" key="GridCell.Tab.1.center" timestamp="1601717021445">
+    <state width="1557" height="266" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1601876526419" />
+    <state width="1557" height="266" key="GridCell.Tab.1.center" timestamp="1601876526419">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="406" height="214" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1601717021445" />
-    <state width="406" height="214" key="GridCell.Tab.1.left" timestamp="1601717021445">
+    <state width="1557" height="266" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1601876526419" />
+    <state width="1557" height="266" key="GridCell.Tab.1.left" timestamp="1601876526419">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="406" height="214" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1601717021445" />
-    <state width="406" height="214" key="GridCell.Tab.1.right" timestamp="1601717021445">
+    <state width="1557" height="266" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1601876526419" />
+    <state width="1557" height="266" key="GridCell.Tab.1.right" timestamp="1601876526419">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="406" height="214" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1601717021445" />
-    <state width="853" height="214" key="GridCell.Tab.2.bottom" timestamp="1601717021412">
+    <state width="1557" height="266" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1601876526419" />
+    <state width="1557" height="266" key="GridCell.Tab.2.bottom" timestamp="1601876526419">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="853" height="214" key="GridCell.Tab.2.bottom/0.0.1600.860@0.0.1600.860" timestamp="1601717021412" />
-    <state width="853" height="214" key="GridCell.Tab.2.center" timestamp="1601717021412">
+    <state width="1557" height="266" key="GridCell.Tab.2.bottom/0.0.1600.860@0.0.1600.860" timestamp="1601876526419" />
+    <state width="1557" height="266" key="GridCell.Tab.2.center" timestamp="1601876526419">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="853" height="214" key="GridCell.Tab.2.center/0.0.1600.860@0.0.1600.860" timestamp="1601717021412" />
-    <state width="853" height="214" key="GridCell.Tab.2.left" timestamp="1601717021412">
+    <state width="1557" height="266" key="GridCell.Tab.2.center/0.0.1600.860@0.0.1600.860" timestamp="1601876526419" />
+    <state width="1557" height="266" key="GridCell.Tab.2.left" timestamp="1601876526419">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="853" height="214" key="GridCell.Tab.2.left/0.0.1600.860@0.0.1600.860" timestamp="1601717021412" />
-    <state width="853" height="214" key="GridCell.Tab.2.right" timestamp="1601717021412">
+    <state width="1557" height="266" key="GridCell.Tab.2.left/0.0.1600.860@0.0.1600.860" timestamp="1601876526419" />
+    <state width="1557" height="266" key="GridCell.Tab.2.right" timestamp="1601876526419">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="853" height="214" key="GridCell.Tab.2.right/0.0.1600.860@0.0.1600.860" timestamp="1601717021412" />
-    <state x="91" y="8" key="SettingsEditor" timestamp="1601806172263">
+    <state width="1557" height="266" key="GridCell.Tab.2.right/0.0.1600.860@0.0.1600.860" timestamp="1601876526419" />
+    <state x="441" y="180" key="NewModule_or_Project.wizard" timestamp="1601874343597">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="91" y="8" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1601806172263" />
-    <state x="226" y="131" key="new project wizard" timestamp="1601709908184">
+    <state x="441" y="180" key="NewModule_or_Project.wizard/0.0.1600.860@0.0.1600.860" timestamp="1601874343597" />
+    <state x="520" y="131" key="RollbackChangesDialog" timestamp="1601877886155">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="226" y="131" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1601709908184" />
+    <state x="520" y="131" key="RollbackChangesDialog/0.0.1600.860@0.0.1600.860" timestamp="1601877886155" />
+    <state x="280" y="8" key="SettingsEditor" timestamp="1601874480262">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="280" y="8" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1601874480262" />
+    <state x="594" y="342" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601877817107">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="594" y="342" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1601877817107" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1601877262151">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1601877262151" />
   </component>
 </project>

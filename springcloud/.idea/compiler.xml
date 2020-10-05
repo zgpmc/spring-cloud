@@ -9,12 +9,12 @@
         <module name="streamtransfer" />
         <module name="cloud2" />
         <module name="cloud1" />
+        <module name="configclient2" />
         <module name="cloudserver" />
         <module name="turbine" />
         <module name="cloudconfig" />
-        <module name="streamcustomer" />
         <module name="streamprovider" />
-        <module name="configclient2" />
+        <module name="streamcustomer" />
         <module name="use1" />
         <module name="configclient" />
         <module name="use2" />
@@ -34,7 +34,6 @@
       <module name="turbine" target="1.8" />
       <module name="use1" target="1.8" />
       <module name="use2" target="1.8" />
-      <module name="zipkin" target="1.8" />
       <module name="zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>

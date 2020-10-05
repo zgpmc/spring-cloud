@@ -7,7 +7,6 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.context.annotation.ComponentScan;
 
-@ComponentScan(value = "com.example.cloud1")
 @MapperScan(value = "com.example.cloud1.dao")
 @EnableDiscoveryClient
 @EnableEurekaClient

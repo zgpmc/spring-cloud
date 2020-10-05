@@ -21,7 +21,7 @@ spring:
 eureka:
   instance:
     hostname: localhost
-  #eureka server刷新readCacheMap的时间，注意，client读取的是readCacheMap，这个时间决定了多久会把readWriteCacheMap的缓存更新到readCacheMap上 服务端缓存最长时间 单位毫秒
+    #eureka server刷新readCacheMap的时间，注意，client读取的是readCacheMap，这个时间决定了多久会把readWriteCacheMap的缓存更新到readCacheMap上 服务端缓存最长时间 单位毫秒
     #默认30s
   server:
     response-cache-update-interval-ms: 5000
@@ -34,8 +34,8 @@ eureka:
     #关闭eureka的自我保护 默认true 失效节点将被踢出
     enable-self-preservation: false
   client:
-#启用自注册 一个服务应该关闭自注册registerWithEureka fetchRegistry
-    registerWithEureka: true
-    fetchRegistry: true
+    #启用自注册 一个服务应该关闭自注册registerWithEureka fetchRegistry
+    registerWithEureka: false
+    fetchRegistry: false
     serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:8088/eureka/
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/

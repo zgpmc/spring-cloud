@@ -1,13 +1,13 @@
 package com.example.use1.ctrl;
 
 import com.example.use1.iface.Iface;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.openfeign.EnableFeignClients;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
 /**
@@ -17,6 +17,7 @@ import org.springframework.web.client.RestTemplate;
  */
 @RestController
 @RequestMapping(value = "/test")
+@Api("服务列表")//swagger 支持
 public class Test {
     @Autowired
     private Iface iface;//远程调用注册中心服务有两种方式 1.feign 就要写iface那种接口 2。resttemplete+ribbion 要写Bean 配置类且注册成bean
@@ -27,13 +28,15 @@ public class Test {
     @Value("${server.port}")
     String port;
 
-    @RequestMapping(value = "")
+    @ApiOperation("测试地址是否通畅 返回服务端口")
+    @RequestMapping(value = "", method = {RequestMethod.GET})
     public String test() {
         return "use1服务使用者:端口" + port;
     }
 
+    @ApiOperation("测试远程调用接口")
     @RequestMapping(value = "/hello/{name}")
-    public String testuse(@PathVariable(name = "name") String name) {
+    public String testuse(@ApiParam("名称") @PathVariable(name = "name") String name) {
         return iface.hello(name);
     }
 
