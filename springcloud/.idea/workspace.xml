@@ -1,28 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f0754cf0-8a48-4581-9ad5-90048d010b02" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea/.idea.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/springcloud.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud1/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud1/src/main/java/com/example/cloud1/Cloud1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud1/src/main/java/com/example/cloud1/Cloud1Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud2/src/main/java/com/example/cloud2/Cloud2Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud2/src/main/java/com/example/cloud2/Cloud2Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudserver/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/use1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use1/src/main/java/com/example/use1/Use1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/use1/src/main/java/com/example/use1/Use1Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use1/src/main/java/com/example/use1/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/use1/src/main/java/com/example/use1/config/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use1/src/main/java/com/example/use1/ctrl/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/use1/src/main/java/com/example/use1/ctrl/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use1/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/use1/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +15,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="D:\MavenRepository\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1iRcuMIep1vx00pZ2unaAzi2jB2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -54,7 +46,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.1230629" />
     <property name="project.structure.side.proportion" value="0.3118467" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -217,6 +209,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -228,101 +221,38 @@
       <option name="presentableId" value="Default" />
       <updated>1601874066196</updated>
       <workItem from="1601874070817" duration="593000" />
-      <workItem from="1601874724975" duration="3190000" />
+      <workItem from="1601874724975" duration="3365000" />
+      <workItem from="1612840672481" duration="2303000" />
     </task>
+    <task id="LOCAL-00001" summary="添加swagger2 支持 以及修改注册中心 服务跳转地址至swagger">
+      <created>1601878083031</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601878083031</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="添加swagger2 支持 以及修改注册中心 服务跳转地址至swagger" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加swagger2 支持 以及修改注册中心 服务跳转地址至swagger" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="323" y="23" key="#CloudserverApplication" timestamp="1601874815213">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="569" y="298" key="FileChooserDialogImpl" timestamp="1612841029728">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="323" y="23" key="#CloudserverApplication/0.0.1600.860@0.0.1600.860" timestamp="1601874815213" />
-    <state x="197" y="8" key="#Project_Structure" timestamp="1601874160812">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="569" y="298" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1612841029728" />
+    <state x="290" y="188" key="SettingsEditor" timestamp="1612841240169">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="197" y="8" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1601874160812" />
-    <state x="254" y="84" width="1174" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601874889006">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="290" y="188" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1612841240169" />
+    <state x="620" y="306" key="search.everywhere.popup" timestamp="1612840985402">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="254" y="84" width="1174" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1601874889006" />
-    <state x="367" y="0" key="CommitChangelistDialog2" timestamp="1601877899874">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="367" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1601877899874" />
-    <state x="581" y="166" key="FileChooserDialogImpl" timestamp="1601874342279">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="581" y="166" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1601874342279" />
-    <state width="1557" height="266" key="GridCell.Tab.0.bottom" timestamp="1601876526501">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state width="1557" height="266" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1601876526501" />
-    <state width="1557" height="266" key="GridCell.Tab.0.center" timestamp="1601876526501">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state width="1557" height="266" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1601876526501" />
-    <state width="1557" height="266" key="GridCell.Tab.0.left" timestamp="1601876526501">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state width="1557" height="266" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1601876526501" />
-    <state width="1557" height="266" key="GridCell.Tab.0.right" timestamp="1601876526501">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state width="1557" height="266" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1601876526501" />
-    <state width="1557" height="266" key="GridCell.Tab.1.bottom" timestamp="1601876526419">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state width="1557" height="266" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1601876526419" />
-    <state width="1557" height="266" key="GridCell.Tab.1.center" timestamp="1601876526419">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state width="1557" height="266" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1601876526419" />
-    <state width="1557" height="266" key="GridCell.Tab.1.left" timestamp="1601876526419">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state width="1557" height="266" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1601876526419" />
-    <state width="1557" height="266" key="GridCell.Tab.1.right" timestamp="1601876526419">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state width="1557" height="266" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1601876526419" />
-    <state width="1557" height="266" key="GridCell.Tab.2.bottom" timestamp="1601876526419">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state width="1557" height="266" key="GridCell.Tab.2.bottom/0.0.1600.860@0.0.1600.860" timestamp="1601876526419" />
-    <state width="1557" height="266" key="GridCell.Tab.2.center" timestamp="1601876526419">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state width="1557" height="266" key="GridCell.Tab.2.center/0.0.1600.860@0.0.1600.860" timestamp="1601876526419" />
-    <state width="1557" height="266" key="GridCell.Tab.2.left" timestamp="1601876526419">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state width="1557" height="266" key="GridCell.Tab.2.left/0.0.1600.860@0.0.1600.860" timestamp="1601876526419" />
-    <state width="1557" height="266" key="GridCell.Tab.2.right" timestamp="1601876526419">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state width="1557" height="266" key="GridCell.Tab.2.right/0.0.1600.860@0.0.1600.860" timestamp="1601876526419" />
-    <state x="441" y="180" key="NewModule_or_Project.wizard" timestamp="1601874343597">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="441" y="180" key="NewModule_or_Project.wizard/0.0.1600.860@0.0.1600.860" timestamp="1601874343597" />
-    <state x="520" y="131" key="RollbackChangesDialog" timestamp="1601877886155">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="520" y="131" key="RollbackChangesDialog/0.0.1600.860@0.0.1600.860" timestamp="1601877886155" />
-    <state x="280" y="8" key="SettingsEditor" timestamp="1601874480262">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="280" y="8" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1601874480262" />
-    <state x="594" y="342" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601877817107">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="594" y="342" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1601877817107" />
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1601877262151">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1601877262151" />
+    <state x="620" y="306" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612840985402" />
   </component>
 </project>
