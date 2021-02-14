@@ -1,7 +1,26 @@
-#部署 cmd:java -jar xxx.jar --spring.profiles.active=a
+#部署 cmd:java -jar xxx.jar --spring.profiles.active=test
 server:
   port: 8088
+#文件块多环境配置 yml可用---进行多环境配置
 spring:
+  profiles:
+---
+#文件块配置1
+server:
+  port: 9001
+spring:
+  profiles: wjk1
+---
+#文件块配置2
+server:
+  port: 9002
+spring:
+  profiles: wjk2
+---
+spring:
+  #使用哪个配置
+  profiles:
+    active:
   application:
     name: server
   sleuth:
@@ -14,10 +33,6 @@ spring:
   info:
     git:
       encoding:
-  #使用哪个配置
-  profiles:
-    active:
-
 eureka:
   instance:
     hostname: localhost

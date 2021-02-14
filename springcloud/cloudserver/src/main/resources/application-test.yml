@@ -1,7 +1,6 @@
 #部署 cmd:java -jar xxx.jar --spring.profiles.active=a
 server:
   port: 8089
-
 eureka:
   instance:
     hostname: localhost
